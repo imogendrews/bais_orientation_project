@@ -1,6 +1,6 @@
 module.exports = {
   content: ['./src/**/*.{html,js,svelte,ts}', './node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}'],
-  darkMode: 'selector',
+  darkMode: 'class',
   plugins: [
     
     require('flowbite/plugin'),
@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundColor: {
+        DEFAULT: '#000000', // Sets default background color to black
+      },
       fontSize: {
         'h900': '35px',
         'h800': '29px',
@@ -31,9 +34,11 @@ module.exports = {
         'h100': '700',
       },
       colors: {
+        customBlack: '#000000',
         
       
       }
+      
     }
   }
 };
