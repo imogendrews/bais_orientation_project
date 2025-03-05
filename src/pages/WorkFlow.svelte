@@ -1,5 +1,6 @@
 <script>
-  import { P, Heading, List, Li } from "flowbite-svelte";
+  import { P, Heading, List, Li, Img, A } from "flowbite-svelte";
+  import image1 from "../assets/pudding_1.png";
 </script>
 
 <div class="p-20">
@@ -13,7 +14,7 @@
     if ML5.js, pl5.js or three.js need any contributors and that my project can be on that and that
     I could add an accompanying text explaining how open-source works and my experience.</P
   >
-
+  <br />
   <Heading tag="h3">6 November 2024</Heading>
   <P
     >In Peer and Review the babies were split up amongst the Elderly’s and Zombies and we were told
@@ -25,7 +26,7 @@
     potential website where I present a personalised pretrained machine learning model of some sorts
     and that I just need to look into this a bit more.</P
   >
-
+  <br />
   <Heading tag="h3">7 November 2024</Heading>
   <P>
     I spoke to Alex about diffusion models which are the type of machine learning models that we
@@ -37,7 +38,7 @@
     project, I would flesh this out a bit and place this in its own website that users can go to and
     add their images and then save the output.</P
   >
-
+  <br />
   <Heading tag="h3">12 November 2024</Heading>
   <P
     >I had another meeting with Lena today and I mentioned that I would like to create a web
@@ -58,7 +59,7 @@
     just get the website and the diffusion model running with my certain ‘style’ and work on the
     second stage of this project further down the line during my masters.</P
   >
-
+  <br />
   <Heading tag="h3">25 November 2024</Heading>
   <P>
     I spoke with Alex during my Machine Learning workshop and he said that this idea will probably
@@ -66,7 +67,7 @@
     being rather bland and boring - very average. I am now trying to think of maybe using a LLM for
     my project.</P
   >
-
+  <br />
   <Heading tag="h3">3 December</Heading>
   <P
     >Started thinking of another idea where I try and visually show the inherit biases that come
@@ -81,7 +82,7 @@
     from training these models on any text people can find which are more often than not things that
     come from the western world.</P
   >
-
+  <br />
   <Heading tag="h3">17 December 2024</Heading>
   <P
     >Spoke to Lena today and she mentioned that it would hard to get enough data to show my original
@@ -94,7 +95,7 @@
     need to also read some papers outlining this so that I can see what people have already done in
     this field and I can use that in addition to add to my findings.</P
   >
-
+  <br />
   <Heading tag="h3">22 December 2024</Heading>
   <P
     >Sent Lena an email with a brief project plan so that I could let her know what my ideas are so
@@ -180,7 +181,7 @@
     hopes to get feedback and data from peers and mentors in order to refine the approach and use
     the data to further the research in the future.</P
   >
-
+  <br />
   <Heading tag="h3">6 January 2025</Heading>
   <P
     >Spoke to Alex about my project and he suggested that I really focus on the latent space of
@@ -188,19 +189,19 @@
     of the set of data by the model. He also suggested that I focus on just 20 prompts for this
     project.</P
   >
-
+  <br />
   <Heading tag="h3">8 January 2025</Heading>
   <P
     >I had my Orientation Project presentation today and got a lot of feedback from the class, these
     are some notable things I wrote down from the session:</P
   >
 
-  <P weight="bold">Bias in Nationalities</P>
+  <P weight="bold">1. Bias in Nationalities</P>
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
     <Li>People asking if certain groups have internet access, reflecting stereotypes.</Li>
     <Li>Germany is not only white; representation needs to reflect diversity.</Li>
   </List>
-  <P weight="bold">Object Association with People</P>
+  <P weight="bold">2. Object Association with People</P>
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
     <Li
       >Certain objects are stereotypically linked to specific roles, e.g., watches always showing
@@ -208,14 +209,14 @@
     >
     <Li>Gender-specific objects also perpetuate biases.</Li>
   </List>
-  <P weight="bold">Platform Website Idea</P>
+  <P weight="bold">3. Platform Website Idea</P>
 
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
     <Li>Allow users to generate their own prompts and view the resulting images.</Li>
     <Li>Ensure prompts are neutral to avoid reinforcing stereotypes.</Li>
   </List>
 
-  <P weight="bold">Language and Bias</P>
+  <P weight="bold">4. Language and Bias</P>
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
     <Li
       >Explore how language affects image generation, especially in gendered vs. non-gendered German
@@ -230,29 +231,29 @@
     >
   </List>
   <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
-    <P weight="bold">Interactive Bias Exploration</P>
+    <P weight="bold">5. Interactive Bias Exploration</P>
 
     <P
       >Allow users to draw their idea of roles like a doctor and compare it to generated images to
       uncover personal biases.</P
     >
-    <P weight="bold">Prompt Engineering</P>
+    <P weight="bold">6. Prompt Engineering</P>
 
     <P>Think about how systems themselves influence the way prompts are constructed.</P>
-    <P weight="bold">Social Class Representation</P>
+    <P weight="bold">7. Social Class Representation</P>
 
     <P>Many AI-generated images depict people as middle-class, highlighting economic status bias.</P
     >
-    <P weight="bold">Cultural Stereotypes</P>
+    <P weight="bold">8. Cultural Stereotypes</P>
 
     <P>Look into stereotypes for different nationalities, e.g., Russian people.</P>
-    <P weight="bold">Torga Reading Insight</P>
+    <P weight="bold">9. Torga Reading Insight</P>
 
     <P
       >"A man is to a computer as a woman is to a homemaker" — explore this type of gendered
       association in AI.</P
     >
-    <P weight="bold">Focusing on Nationality Bias</P>
+    <P weight="bold">10. Focusing on Nationality Bias</P>
     <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
       <Li>Consider narrowing the project to focus on how nationalities are represented.</Li>
       <Li>
@@ -260,10 +261,10 @@
         from a country looks like?</Li
       >
     </List>
-    <P weight="bold">Language Use in Image Generation</P>
+    <P weight="bold">11. Language Use in Image Generation</P>
 
     <P>Mention how using English for prompts might influence the generated results.</P>
-    <P weight="bold">Example Prompts for Exploring Bias</P>
+    <P weight="bold">12. Example Prompts for Exploring Bias</P>
     <List tag="ul" class="space-y-1 text-gray-500 dark:text-gray-400">
       <Li>A doctor</Li>
 
@@ -274,10 +275,148 @@
       <Li>A man walking down the street</Li>
     </List>
   </List>
+  <br />
   <Heading tag="h3">13 January 2025</Heading>
   <P
     >Refined by ideas a bit as you can see in my project_plan. After all the feedback I got from the
     class I looked into unconcious biases of people from the book Blindside and decided to base my
     prompts on the findings from this book.</P
   >
+  <Heading tag="h3">30 January 2025</Heading>
+  <P
+    >Spoke to Francesca and she told me some of the methods she uses when approaching data vis
+    projects. She first told me to do a small tutorial on how statistics work in general and perhaps
+    do a short data science intoduction. She then mentioned that she does her data visualisations
+    using Jupiter Notebook which I will look into and she also used Pandas to get statistics. She
+    then said that I should focus on my central questions, go through the pipeline I created and
+    then come up with either an answer or not and then visualise it. I mentioned to her that I am
+    finding it hard imagining what type of narrative to make and she mentioned that I should make a
+    Slide Deck where I place each of my questions and then place all the findings I get underneath
+    that that directly answer this question. I should do that before I make my website so that I
+    keep on track in terms of what I am trying to find and don’t get distracted.
+  </P>
+  <Heading tag="h3">4 February 2025</Heading>
+  <P
+    >Started working with different models. I first tried the Hugging Face Stable Diffusion 3.5
+    Large and that too way to long to even generate 1 image so I gave up and the price of these
+    image from the Stable Diffusion website are too high, especially since I want to work with the
+    version SD 3.5 Large. I then spoke to Lena later that day and we decided that it is important
+    that I have one of the more latest models since the biases in the older versions are much more
+    apparent so I told her that I would ask Alex if he had any suggestions of how I could go
+    forward. I am very behind with my initial schedule, mainly because I was finishing up other
+    projects that were due at the end of January so my main thing at the moment is to try and
+    generate these images as soon as possible.</P
+  >
+  <Heading tag="h3">6 February 2025</Heading>
+  <P
+    >I spoke to Alex today and he mentioned that I could try and download the Stable Diffusion model
+    locally on a computer. This way I would not have to wait too long to get one image since when
+    you go through the hugging face website they have to get the images from their data centers
+    which takes a long time. He mentioned that I will probably have to use the computers at the
+    university. I will be going to Hamburg for the whole of next week so I will be trying to run it
+    on my laptop and if that doesn’t work out I will try and do it on the university computers when
+    I get back.
+  </P>
+  <Heading tag="h3">7 February 2025</Heading>
+  <P
+    >Looked into running Stable Diffusion on the university laptops but it turned out to be way too
+    large so I will have to continue this when I get back to Berlin after a week.</P
+  >
+  <Heading tag="h3">17 February 2025</Heading>
+  <P
+    >Got back to Berlin today and was able to download Stable Diffusion 3.5 on one of the computers
+    at the university. It takes around 1 minute to generate 1 image so it will ultimately take much
+    longer to generate all the images. Therefore, I have decided to go in batches and to start
+    processing the data after each prompt so that I at least have something to work with. Tomorrow I
+    will start tagging the images since I am not able to go into the university and then on
+    Wednesday I will go and generate more images. It’s unfortunate that I am not able to exactly
+    work according to my timeline but I do need to also work on all the other project due at the end
+    of the month. My latest idea is to get all the images, tagging and analysis done by the end of
+    February and then dedicate March to the data visualisation.
+  </P>
+  <Heading tag="h3">19 February 2025</Heading>
+  <P
+    >Did not get to testing the tagging yesterday but generated a whole lot more images at the
+    university today which I will discuss with Lena about tomorrow. So far there are certain prompts
+    where I definatly see bias and others were Sable Diffusion keeps obscuring faces or choosing an
+    artistic style that is not realistic. I might start adding the word ‘realistic’ to my prompts
+    just so that it sticks to humans and does not generate art. I also looked into the tagging model
+    “BLIP-2” which I was not able to get running just yet so will look into that tomorrow morning
+    before my meeting with Lena.</P
+  >
+  <Heading tag="h3">20 February 2025</Heading>
+  <P
+    >I was able to get both BLIP and Pandas working today in Jupyter. I practice this out with the
+    first complete prompt I have which is ‘A person walking down a street’ and was able to save the
+    image and the caption generated by BLIP in a table with the help of Pandas. Spoke to Lena and
+    showed her what I have done so far and she mentioned that I should stick to making the prompts
+    very basic so that we see what Stable Diffusion defaults to and what your average person will
+    get when prompting. She also made the point that it is interesting that when you combine the
+    word ‘person’ with street you get mainly men and when you combine it with ‘beautiful’ you get
+    mainly women. We ended the discussion with the decision that I need to figure out how to
+    automate the generation of these images which I will do next Monday when I go into the
+    university again and until then I will be working on my other projects.</P
+  >
+  <Heading tag="h3">24 February 2025</Heading>
+  <P
+    >I was able to figure out how to generate the images in the ComfyUI interface but was not able
+    to make a Python script out of it. I will try and contact Lena’s contact who did this as soon as
+    possible in order to run a script. Today I finished generating images of university students
+    which turned out to be mainly young men. I left for the day with my ComfyUI running and
+    generating 100 images of teachers.</P
+  >
+  <Heading tag="h3">25 February 2025</Heading>
+  <P
+    >The queue worked and I was able to generate those 100 images of teachers overnight. That
+    evening I left the university with it generating 100 images of nurses.</P
+  >
+  <Heading tag="h3">26 February 2025</Heading>
+  <P
+    >I came to the university and the 100 images of nurses was completed. I then left the university
+    with 100 images of ‘a beautiful person’ running.</P
+  >
+  <Heading tag="h3">27 February 2025</Heading>
+  <P
+    >I came to the university and it only generated 50 images of ‘a beautiful person’. I think my
+    GPU crashed and I have a feeling that it was to do with the fact that I was also rendering my
+    TBAG project the previous evening. I decided, however, that I would like to get a script out of
+    this in order to generate even more images over night.
+  </P>
+  <Heading tag="h3">4 March 2025</Heading>
+  <P
+    >On Friday I focused on submitting all my projects and then over the weekend I took some days
+    off since I felt a bit burnt out after those submissions. I went to Hamburg over the weeekend so
+    I was not able to generate some more images but today I started looking through projects from
+    the website The Pudding which Francesca shared with me. I found <A
+      href="https://pudding.cool/2024/11/love-songs/">this</A
+    > project that I really liked from the website Pudding. Below is a screen shot of the project:
+  </P>
+  <Img
+    src={image1}
+    alt="Pudding Image example"
+    alignment="mx-auto"
+    size="max-w-lg"
+    class="rounded-lg"
+  />
+  <P>
+    I am inspired by the layout of this. I really like the narration and how they display the
+    statistical findings. I also like the use of dots and I am thinking of doing a similar thing but
+    with each dot being an image that you can click on. Maybe I could mention the amount of times
+    ‘man’ is mentioned in the captions and then each dot shows the image and caption that you can
+    click on and view? I can then go through all my different statistical findings and change what
+    is highlighted each time someone clicks through?</P
+  >
+  <br />
+  <P
+    >Later today I spoke to Lena about all this and she mentioned that in terms of narrative one of
+    the main things I need to do is clearly communicate each of my prompts and emphasise the reason
+    why I didnt add any parameter changes to the prompt in the narrative part of the website. After
+    this conversation I have decided to make a sort of wizard introduction where the user clicks
+    through the narrative part of my project in a similar way to the project mentioned above and
+    then at the end they land on the core website which just displays these images and the
+    accompanying captions. The wizard will also be optional since it will most likely start each
+    time a user visits the website so I will add a little exit button to the top right corner of it.</P
+  >
+  <Heading tag="h3"></Heading>
+  <P></P>
 </div>
