@@ -3,5 +3,5 @@
 </script>
 
 <main>
-  <P>Research</P>
+  <P>Documentation</P>
 </main>
