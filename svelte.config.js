@@ -8,6 +8,7 @@ export default {
     vitePreprocess(),
     preprocess({
       postcss: true,
+     
     }),
   ],
 };
