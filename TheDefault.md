@@ -1,3 +1,6 @@
 ## How to run 
 
 To get this project running, you just need to first run npm install in order to get the correct node_modules and package-lock.json. Then, either click 'dev' in the NPM Scripts or run 'npm run dev' in the terminal. 
+
+## Structure
+All the main files for this project are under the file 'src'. App is the main file and all the other files are called on from there. Within the folder 'pages' are all the files that are called on in App which are Prompts, Documentation, WordFlow and Modal. Prompts is the main view you see when opening up the project with the two select bars and the nodes. Documentation is then where you can find all the documentation require for the project, Work flow is a time line of my workflow and lastly, Modal is the modal that pops up when the user first opens the webiste and when they click on 'About'. I then saved half my images in Cloudinary and the other half in my public folder, along with my json files which I saved in the public folder in the file 'data'.
