@@ -7,34 +7,36 @@
   import Documentation from "./pages/Documentation.svelte";
   import WorkFlow from "./pages/WorkFlow.svelte";
   import WalkingPerson from "./pages/prompts/WalkingPerson.svelte";
+  import Teacher from "./pages/prompts/Teacher.svelte";
+  import Modal from "./Modal.svelte";
 </script>
 
 <div class="bg-customBlack">
   <Router>
     <div class="flex flex-col items-center w-full px-4">
       <!-- Title -->
-      <h1 class="text-6xl font-bold mb-4">The Default Person</h1>
+      <h1 class="text-7xl text-black font-bold mb-4">The Default</h1>
 
       <!-- Links below the title -->
       <div class="flex space-x-6 text-lg">
         <Link to="/" class="hover:underline">Prompts</Link>
         <Link to="/documentation" class="hover:underline">Documentation</Link>
         <Link to="/workflow" class="hover:underline">Workflow</Link>
+        <Modal />
+        <!-- <Modal /> -->
       </div>
     </div>
 
-    <A href="/person-walking">Link</A>
+    <!-- <A href="/person-walking">Walking Person</A>
+    <A href="/teacher">Teacher</A> -->
     <!-- Define routes -->
-    <div class="flex justify-end">
-      <div class="w-3/4">
-        <Route path="/" component={Prompts} />
-      </div>
-    </div>
-    <div class="flex justify-end">
-      <div class="w-3/4">
-        <Route path="/person-walking" component={WalkingPerson} />
-      </div>
-    </div>
+
+    <Route path="/" component={Prompts} />
+
+    <Route path="/person-walking" component={WalkingPerson} />
+
+    <Route path="/teacher" component={Teacher} />
+
     <Route path="/research" component={Documentation} />
     <Route path="/workflow" component={WorkFlow} />
     <Route path="/contribute" component={Contribute} />
