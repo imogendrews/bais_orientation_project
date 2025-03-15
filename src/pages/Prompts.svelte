@@ -18,7 +18,8 @@
   };
 
   let promptSelected = "person_walking"; // Default value to ensure data loads initially
-  let statsSelected = "all";
+  $: statsSelected = "all";
+
   let prompts = [
     { value: "doctor", name: "A Doctor" },
     { value: "teacher", name: "A Teacher" },
@@ -78,6 +79,9 @@
   // Fetch data dynamically when promptSelected changes
   $: if (promptSelected) {
     fetchData();
+  }
+  $: if (promptSelected) {
+    statsSelected = "all";
   }
 
   // Watch imageData and update D3 visualization
@@ -161,28 +165,28 @@
       const nodes = svgElement.selectAll("g");
 
       // Define cluster positions
-      const clusterPositions = {
-        Male: { x: 100, y: 100 },
-        Female: { x: 300, y: 100 },
-        Neutral: { x: 500, y: 100 },
-      };
+      // const clusterPositions = {
+      //   Male: { x: 100, y: 100 },
+      //   Female: { x: 300, y: 100 },
+      //   Neutral: { x: 500, y: 100 },
+      // };
 
-      nodes
-        .selectAll("circle.main") // Select the main circle (image mask)
-        .attr("stroke", (d) => {
-          if (statsSelected === "gender") {
-            return d.GenderIndicator === "Male"
-              ? "blue"
-              : d.GenderIndicator === "Female"
-                ? "pink"
-                : d.GenderIndicator === "Neutral"
-                  ? "green"
-                  : "black";
-          } else {
-            return "black";
-          }
-        })
-        .attr("stroke-width", (d) => (statsSelected === "gender" ? 10 : 1));
+      // nodes
+      //   .selectAll("circle.main") // Select the main circle (image mask)
+      //   .attr("stroke", (d) => {
+      //     if (statsSelected === "gender") {
+      //       return d.GenderIndicator === "Male"
+      //         ? "blue"
+      //         : d.GenderIndicator === "Female"
+      //           ? "pink"
+      //           : d.GenderIndicator === "Neutral"
+      //             ? "green"
+      //             : "black";
+      //     } else {
+      //       return "black";
+      //     }
+      //   })
+      //   .attr("stroke-width", (d) => (statsSelected === "gender" ? 10 : 1));
 
       // Add or update the overlay circle
       nodes
