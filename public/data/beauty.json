@@ -1,703 +1,703 @@
 {
     "image_captions": [
         {
-            "Image": "/beauty/Beauty_00031_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-31.png",
             "Image Name": "Beauty_00031_.png",
             "Caption": "a woman with short hair and a black jacket is standing in front of a wall",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00032_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-32.png",
             "Image Name": "Beauty_00032_.png",
             "Caption": "a woman with a flower crown in a field of yellow flowers",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00033_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-33.png",
             "Image Name": "Beauty_00033_.png",
             "Caption": "a young woman with braids leaning against a wall",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00034_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-34.png",
             "Image Name": "Beauty_00034_.png",
             "Caption": "a white mannequin with flowers on its head",
-            "Gender Indicator": "Neutral",
+            "GenderIndicator": "Neutral",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00035_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-35.png",
             "Image Name": "Beauty_00035_.png",
             "Caption": "a beautiful bride with her hair in a field",
-            "Gender Indicator": "Neutral",
+            "GenderIndicator": "Neutral",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00036_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-36.png",
             "Image Name": "Beauty_00036_.png",
             "Caption": "a woman with pink hair and flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00037_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-37.png",
             "Image Name": "Beauty_00037_.png",
             "Caption": "a woman with bright makeup and a pink shirt",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00038_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-38.png",
             "Image Name": "Beauty_00038_.png",
             "Caption": "a woman smiling in front of a pink wall",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00039_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-39.png",
             "Image Name": "Beauty_00039_.png",
             "Caption": "a woman with curly hair and a hat smiling",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00040_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-40.png",
             "Image Name": "Beauty_00040_.png",
             "Caption": "a woman with pink hair and a pink hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00041_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-41.png",
             "Image Name": "Beauty_00041_.png",
             "Caption": "a beautiful young woman with freckles and a hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00042_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-42.png",
             "Image Name": "Beauty_00042_.png",
             "Caption": "a woman with a flower crown on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00043_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-43.png",
             "Image Name": "Beauty_00043_.png",
             "Caption": "a beautiful woman with a flower crown and earrings",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00044_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-44.png",
             "Image Name": "Beauty_00044_.png",
             "Caption": "a woman with her head up looking up",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00045_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-45.png",
             "Image Name": "Beauty_00045_.png",
             "Caption": "a woman with curly hair and flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00046_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-46.png",
             "Image Name": "Beauty_00046_.png",
             "Caption": "a woman wearing sunglasses and a white jacket",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00047_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-47.png",
             "Image Name": "Beauty_00047_.png",
             "Caption": "a young woman with pink hair and flowers on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00048_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-48.png",
             "Image Name": "Beauty_00048_.png",
             "Caption": "a woman with dark hair and a black top",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00049_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-49.png",
             "Image Name": "Beauty_00049_.png",
             "Caption": "a woman with pink flowers on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00050_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-50.png",
             "Image Name": "Beauty_00050_.png",
             "Caption": "a woman with purple makeup and flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00051_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-51.png",
             "Image Name": "Beauty_00051_.png",
             "Caption": "a woman with short blonde hair and a black suit",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00052_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-52.png",
             "Image Name": "Beauty_00052_.png",
             "Caption": "a woman in a black dress and earrings against a green wall",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00053_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-53.png",
             "Image Name": "Beauty_00053_.png",
             "Caption": "a woman with long hair and earrings",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00054_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-54.png",
             "Image Name": "Beauty_00054_.png",
             "Caption": "a woman in a blue suit with her hands on her chin",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00055_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-55.png",
             "Image Name": "Beauty_00055_.png",
             "Caption": "a woman with pink makeup and a hat is posing for the camera",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00056_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-56.png",
             "Image Name": "Beauty_00056_.png",
             "Caption": "a woman wearing a hat and a dress",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00057_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-57.png",
             "Image Name": "Beauty_00057_.png",
             "Caption": "a beautiful young woman in a white dress with flowers on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00058_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-58.png",
             "Image Name": "Beauty_00058_.png",
             "Caption": "a woman with curly hair wearing a hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00059_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-59.png",
             "Image Name": "Beauty_00059_.png",
             "Caption": "a woman wearing a pink dress with flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00060_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-60.png",
             "Image Name": "Beauty_00060_.png",
             "Caption": "a woman with a hat on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00061_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-61.png",
             "Image Name": "Beauty_00061_.png",
             "Caption": "a woman wearing a hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00062_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-62.png",
             "Image Name": "Beauty_00062_.png",
             "Caption": "a woman with flowers in her hair and a flower crown",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00063_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-63.png",
             "Image Name": "Beauty_00063_.png",
             "Caption": "a woman wearing a black jacket and necklace",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00064_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-64.png",
             "Image Name": "Beauty_00064_.png",
             "Caption": "a young woman with an afro hair style",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00065_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-65.png",
             "Image Name": "Beauty_00065_.png",
             "Caption": "a woman with dreadlocks and a white shirt",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00066_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-66.png",
             "Image Name": "Beauty_00066_.png",
             "Caption": "a woman with an afro wearing a white jacket",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00067_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-67.png",
             "Image Name": "Beauty_00067_.png",
             "Caption": "a beautiful young woman with afro hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00068_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-68.png",
             "Image Name": "Beauty_00068_.png",
             "Caption": "a woman in a black suit and white shirt smiling",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00069_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-69.png",
             "Image Name": "Beauty_00069_.png",
             "Caption": "a woman with a hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00070_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-70.png",
             "Image Name": "Beauty_00070_.png",
             "Caption": "beautiful woman with long hair and makeup looking out the window",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00071_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-71.png",
             "Image Name": "Beauty_00071_.png",
             "Caption": "a black woman with a mohawk and a necklace",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00072_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-72.png",
             "Image Name": "Beauty_00072_.png",
             "Caption": "a woman wearing sunglasses and a colorful head wrap",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00073_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-73.png",
             "Image Name": "Beauty_00073_.png",
             "Caption": "a woman wearing a hat with flowers on it",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00074_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-74.png",
             "Image Name": "Beauty_00074_.png",
             "Caption": "a woman with long hair and a black top",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00075_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-75.png",
             "Image Name": "Beauty_00075_.png",
             "Caption": "a woman wearing a pink headband and black top",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00001_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067919/Beauty.png",
             "Image Name": "Beauty_00001_.png",
             "Caption": "a woman with curly hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00002_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-2.png",
             "Image Name": "Beauty_00002_.png",
             "Caption": "a woman with curly hair and a black jacket",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00003_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-3.png",
             "Image Name": "Beauty_00003_.png",
             "Caption": "a woman smiles while surrounded by pink flowers",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00004_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-4.png",
             "Image Name": "Beauty_00004_.png",
             "Caption": "a beautiful woman with flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00005_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-5.png",
             "Image Name": "Beauty_00005_.png",
             "Caption": "a beautiful young woman with curly hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00006_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-6.png",
             "Image Name": "Beauty_00006_.png",
             "Caption": "a young woman with curly hair and a necklace",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00007_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-7.png",
             "Image Name": "Beauty_00007_.png",
             "Caption": "a woman wearing a hat and a scarf with flowers on it",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00008_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-8.png",
             "Image Name": "Beauty_00008_.png",
             "Caption": "a young girl with blue paint on her face and flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young, girl"
         },
         {
-            "Image": "/beauty/Beauty_00009_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-9.png",
             "Image Name": "Beauty_00009_.png",
             "Caption": "a beautiful woman with a flower in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00010_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-10.png",
             "Image Name": "Beauty_00010_.png",
             "Caption": "a woman with curly hair and earrings in front of a wall",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00011_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-11.png",
             "Image Name": "Beauty_00011_.png",
             "Caption": "a woman in an orange dress with flowers on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00012_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-12.png",
             "Image Name": "Beauty_00012_.png",
             "Caption": "a woman in front of a pink wall with shadows",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00013_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-13.png",
             "Image Name": "Beauty_00013_.png",
             "Caption": "a woman with a black turtle neck top and dark hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00014_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-14.png",
             "Image Name": "Beauty_00014_.png",
             "Caption": "a woman wearing a hat and a white dress",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00015_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-15.png",
             "Image Name": "Beauty_00015_.png",
             "Caption": "a woman's face is surrounded by flowers",
-            "Gender Indicator": "Neutral",
+            "GenderIndicator": "Neutral",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00016_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-16.png",
             "Image Name": "Beauty_00016_.png",
             "Caption": "a painting of a woman with dreadlocks and flowers",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00017_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-17.png",
             "Image Name": "Beauty_00017_.png",
             "Caption": "a woman with short hair and a necklace",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00018_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-18.png",
             "Image Name": "Beauty_00018_.png",
             "Caption": "a beautiful woman in a red hat and white shirt",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00019_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-19.png",
             "Image Name": "Beauty_00019_.png",
             "Caption": "a woman with pink flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00020_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-20.png",
             "Image Name": "Beauty_00020_.png",
             "Caption": "beautiful woman with flowers in the garden",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00021_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-21.png",
             "Image Name": "Beauty_00021_.png",
             "Caption": "a beautiful young woman with an afro hair style",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00022_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-22.png",
             "Image Name": "Beauty_00022_.png",
             "Caption": "a beautiful black woman with long hair and a flower crown",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00023_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-23.png",
             "Image Name": "Beauty_00023_.png",
             "Caption": "a woman with pink flowers in her hair and makeup",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00024_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-24.png",
             "Image Name": "Beauty_00024_.png",
             "Caption": "a woman with her hair blowing in the wind",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00025_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-25.png",
             "Image Name": "Beauty_00025_.png",
             "Caption": "a woman with flowers on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00026_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-26.png",
             "Image Name": "Beauty_00026_.png",
             "Caption": "a woman with curly hair standing in front of a pink background",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00027_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-27.png",
             "Image Name": "Beauty_00027_.png",
             "Caption": "a woman with a black hat and a tattoo",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00028_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-28.png",
             "Image Name": "Beauty_00028_.png",
             "Caption": "a young woman with curly hair wearing a hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00029_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-29.png",
             "Image Name": "Beauty_00029_.png",
             "Caption": "a young woman with curly hair wearing a red hat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00030_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-30.png",
             "Image Name": "Beauty_00030_.png",
             "Caption": "a beautiful woman with colorful jewelry and a flower crown",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00076_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-76.png",
             "Image Name": "Beauty_00076_.png",
             "Caption": "a woman with dreadlocks standing in a room",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00077_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-77.png",
             "Image Name": "Beauty_00077_.png",
             "Caption": "a woman with a black jacket and earrings",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00078_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-78.png",
             "Image Name": "Beauty_00078_.png",
             "Caption": "a woman in a black hat and black dress",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00079_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-79.png",
             "Image Name": "Beauty_00079_.png",
             "Caption": "a woman in a purple dress and hat looking out of a window",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00080_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-80.png",
             "Image Name": "Beauty_00080_.png",
             "Caption": "a young black woman with curly hair and earrings",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00081_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-81.png",
             "Image Name": "Beauty_00081_.png",
             "Caption": "a woman with short hair and a necklace",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00082_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-82.png",
             "Image Name": "Beauty_00082_.png",
             "Caption": "a beautiful woman with pink flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00083_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-83.png",
             "Image Name": "Beauty_00083_.png",
             "Caption": "a woman wearing sunglasses and a head scarf",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00084_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-84.png",
             "Image Name": "Beauty_00084_.png",
             "Caption": "a 3d rendering of a woman with glitter on her face",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00085_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-85.png",
             "Image Name": "Beauty_00085_.png",
             "Caption": "a woman with a red headdress",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00086_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-86.png",
             "Image Name": "Beauty_00086_.png",
             "Caption": "a woman with a hat and a smile",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00087_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-87.png",
             "Image Name": "Beauty_00087_.png",
             "Caption": "a man with a white body and a turtle neck",
-            "Gender Indicator": "Male",
+            "GenderIndicator": "Male",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00088_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-88.png",
             "Image Name": "Beauty_00088_.png",
             "Caption": "a woman with a hat and flowers in her hair",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00089_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-89.png",
             "Image Name": "Beauty_00089_.png",
             "Caption": "a woman with a black headscarf and makeup",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00090_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-90.png",
             "Image Name": "Beauty_00090_.png",
             "Caption": "a woman with blue skin and a blue body",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00091_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-91.png",
             "Image Name": "Beauty_00091_.png",
             "Caption": "a man with flowers in his hair",
-            "Gender Indicator": "Male",
+            "GenderIndicator": "Male",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00092_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-92.png",
             "Image Name": "Beauty_00092_.png",
             "Caption": "a woman with red flowers on her head",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00093_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-93.png",
             "Image Name": "Beauty_00093_.png",
             "Caption": "a woman with a red umbrella and earrings",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00094_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-94.png",
             "Image Name": "Beauty_00094_.png",
             "Caption": "a woman in a black hijab with a black background",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00095_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-95.png",
             "Image Name": "Beauty_00095_.png",
             "Caption": "beautiful woman with flowers and butterflies",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00096_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-96.png",
             "Image Name": "Beauty_00096_.png",
             "Caption": "a woman with dreadlocks standing against a pink wall",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00097_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-97.png",
             "Image Name": "Beauty_00097_.png",
             "Caption": "a woman with long black hair and pearls",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00098_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-98.png",
             "Image Name": "Beauty_00098_.png",
             "Caption": "a woman wearing a scarf and a black coat",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         },
         {
-            "Image": "/beauty/Beauty_00099_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-99.png",
             "Image Name": "Beauty_00099_.png",
             "Caption": "a beautiful young woman with a hat and flowers",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": "young"
         },
         {
-            "Image": "/beauty/Beauty_00100_.png",
+            "Image": "https://res.cloudinary.com/dpp2rx2hd/image/upload/v1742067920/Beauty-100.png",
             "Image Name": "Beauty_00100_.png",
             "Caption": "beautiful african american woman with afro hair smiling with flowers on pink background",
-            "Gender Indicator": "Female",
+            "GenderIndicator": "Female",
             "Age-Related Words": ""
         }
     ],
