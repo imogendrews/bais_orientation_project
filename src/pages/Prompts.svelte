@@ -5,19 +5,41 @@
   import { writable } from "svelte/store";
   import { Button, Modal } from "flowbite-svelte";
   let defaultModal = false;
-  let modalImageSrc = ""; // Store the clicked image source
-  let modalCaption = ""; // Store the caption for the modal
+  let modalImageSrc = "";
+  let modalCaption = "";
   import IntroModal from "../Modal.svelte";
   import { Img } from "flowbite-svelte";
 
   const openModal = (d) => {
     console.log("d", d);
-    modalImageSrc = d.Image; // Set the image source
-    modalCaption = d.Caption; // Set the caption
-    defaultModal = true; // Open the modal
+    modalImageSrc = d.Image;
+    modalCaption = d.Caption;
+    defaultModal = true;
   };
+  let width = window.innerWidth;
+  let height = window.innerHeight;
 
-  let promptSelected = "person_walking"; // Default value to ensure data loads initially
+  $: width = window.innerWidth;
+  $: height = window.innerHeight;
+  onMount(() => {
+    const resizeHandler = () => {
+      width = window.innerWidth;
+      height = window.innerHeight;
+      d3.select(svg).attr("width", width).attr("height", height);
+
+      if (simulation) {
+        simulation
+          .force("center", d3.forceCenter(width / 2, height / 2))
+          .alpha(1)
+          .restart();
+      }
+    };
+
+    window.addEventListener("resize", resizeHandler);
+    return () => window.removeEventListener("resize", resizeHandler);
+  });
+
+  let promptSelected = "person_walking";
   $: statsSelected = "all";
 
   let prompts = [
@@ -46,13 +68,11 @@
   let stats = [
     { value: "all", name: "All images" },
     { value: "gender", name: "Gender" },
-    { value: "frequent", name: "Most frequent word" },
-    { value: "age", name: "Age" },
   ];
 
   let svg;
   let tooltipData = writable({ x: 0, y: 0, text: "", visible: false });
-  let imageData = writable([]); // Reactive store for images
+  let imageData = writable([]);
 
   let captions = [];
   let error = null;
@@ -64,10 +84,10 @@
         throw new Error(`Failed to fetch ${promptSelected}.json`);
       }
       const data = await response.json();
-      const imageCaptions = data.image_captions || []; // Ensure the structure matches
+      const imageCaptions = data.image_captions || [];
       console.log("image captions", imageCaptions);
 
-      imageData.set(imageCaptions); // Update the store with the correct data
+      imageData.set(imageCaptions);
 
       console.log("Fetched data for:", promptSelected, captions);
     } catch (err) {
@@ -76,7 +96,6 @@
     }
   }
 
-  // Fetch data dynamically when promptSelected changes
   $: if (promptSelected) {
     fetchData();
   }
@@ -84,12 +103,8 @@
     statsSelected = "all";
   }
 
-  // Watch imageData and update D3 visualization
   imageData.subscribe((images) => {
-    if (!svg || images.length === 0) return; // Ensure data is available
-
-    const width = window.innerWidth;
-    const height = window.innerHeight;
+    if (!svg || images.length === 0) return;
 
     const simulation = d3
       .forceSimulation(images)
@@ -106,19 +121,19 @@
       .data(images)
       .enter()
       .append("g")
-      .on("click", (event, d) => openModal(d)) // Pass 'd' properly into openModal
+      .on("click", (event, d) => openModal(d))
       .on("mouseover", (event, d) => {
         tooltipData.set({ x: d.x, y: d.y, text: d.Caption, visible: true });
         d3.select(event.currentTarget)
           .select("circle")
-          .attr("stroke", "red")
+          .attr("stroke", "#04768d")
           .attr("stroke-width", 4);
       })
       .on("mousemove", (event, d) => {
         tooltipData.set({
           x: event.pageX + 10,
           y: event.pageY - 20,
-          text: d.Caption, // Ensure correct property name for caption
+          text: d.Caption,
           visible: true,
         });
       })
@@ -130,7 +145,6 @@
           .attr("stroke-width", 4);
       });
 
-    // Apply color based on gender filter or all images
     nodes
       .append("circle")
       .attr("r", 40)
@@ -138,82 +152,56 @@
         "fill",
         () => `rgba(${Math.random() * 255}, ${Math.random() * 255}, ${Math.random() * 255}, 0.5)`
       )
-      // Black with 50% transparency
-      .attr("stroke", "black"); // You can keep this for fallback stroke color
 
+      .attr("stroke", "black");
+    const imgSize = Math.min(width, height) * 0.1;
     nodes
       .append("image")
       .attr("href", (d) => d.Image)
-      .attr("width", 120)
-      .attr("height", 120)
-      .attr("x", -60)
-      .attr("y", -60)
+      .attr("width", imgSize)
+      .attr("height", imgSize)
+      .attr("x", -imgSize / 2)
+      .attr("y", -imgSize / 2)
       .attr("clip-path", "circle(40px at center)")
-      .attr("loading", "lazy") // Lazy load the images
+      .attr("loading", "lazy")
       .on("load", function () {
-        // When the image loads, find the corresponding circle and remove the gray fill
         d3.select(this.parentNode).select("circle").attr("fill", "transparent");
       });
     function ticked() {
       nodes.attr("transform", (d) => `translate(${d.x}, ${d.y})`);
     }
   });
-  // Reactively update D3 visualization when statsSelected changes
+
   $: {
     if (svg && imageData) {
       const svgElement = d3.select(svg);
       const nodes = svgElement.selectAll("g");
 
-      // Define cluster positions
-      // const clusterPositions = {
-      //   Male: { x: 100, y: 100 },
-      //   Female: { x: 300, y: 100 },
-      //   Neutral: { x: 500, y: 100 },
-      // };
-
-      // nodes
-      //   .selectAll("circle.main") // Select the main circle (image mask)
-      //   .attr("stroke", (d) => {
-      //     if (statsSelected === "gender") {
-      //       return d.GenderIndicator === "Male"
-      //         ? "blue"
-      //         : d.GenderIndicator === "Female"
-      //           ? "pink"
-      //           : d.GenderIndicator === "Neutral"
-      //             ? "green"
-      //             : "black";
-      //     } else {
-      //       return "black";
-      //     }
-      //   })
-      //   .attr("stroke-width", (d) => (statsSelected === "gender" ? 10 : 1));
-
-      // Add or update the overlay circle
       nodes
         .selectAll("circle.overlay")
-        .data((d) => [d]) // Bind data to create overlays per node
+        .data((d) => [d])
         .join("circle")
-        .attr("class", "overlay") // Assign class to distinguish it
-        .attr("r", 50) // Ensure the radius matches the main circle
+        .attr("class", "overlay")
+        .attr("r", 50)
         .attr("fill", (d) => {
           if (statsSelected === "gender") {
             return d.GenderIndicator === "Male"
-              ? "rgba(0, 0, 255, 0.3)" // Semi-transparent blue
+              ? "rgba(0, 0, 255, 0.3)"
               : d.GenderIndicator === "Female"
-                ? "rgba(255, 105, 180, 0.3)" // Semi-transparent pink
+                ? "rgba(255, 105, 180, 0.3)"
                 : d.GenderIndicator === "Neutral"
-                  ? "rgba(0, 128, 0, 0.3)" // Semi-transparent green
+                  ? "rgba(0, 128, 0, 0.3)"
                   : "transparent";
           } else {
-            return "transparent"; // Remove tint if not in gender mode
+            return "transparent";
           }
         })
-        .attr("pointer-events", "none"); // Ensure it doesn't interfere with interactions
+        .attr("pointer-events", "none");
     }
   }
 </script>
 
-<div class="flex" data-theme="light">
+<div class="flex w-50% mt-5" data-theme="light">
   <div class="w-100 max-w-40 ml-20">
     <Label>
       Select a prompt
@@ -249,7 +237,7 @@
     font-size: 20px;
     pointer-events: none;
     font-weight: bold;
-    color: rgb(224, 48, 207);
+    color: #085465;
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);

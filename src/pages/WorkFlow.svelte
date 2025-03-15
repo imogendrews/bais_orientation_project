@@ -3,6 +3,9 @@
   import { Timeline, TimelineItem, Button } from "flowbite-svelte";
   import { ArrowRightOutline } from "flowbite-svelte-icons";
   import image1 from "../assets/pudding_1.png";
+  import image2 from "../assets/Bias_project_1.jpg";
+  import image3 from "../assets/doctor_test.png";
+  import image4 from "../assets/thedefault.png";
 </script>
 
 <div class="pl-20 pt-10 pr-20">
@@ -472,17 +475,135 @@
         top right corner of it.
       </p>
     </TimelineItem>
-    <TimelineItem title="">
-      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"></p>
+    <TimelineItem title="6 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Got back to working on project since yesterday I had to spend most of my time with the
+        Exhibition workshop. I decided to split my prompts into two different categories: profession
+        and nationality. The profession prompts I have so far are a doctor, a nurse, a teacher and a
+        university student and then the nationality ones are a German, a Colombian, a Russian. I
+        then also wrote some documentation on my data visualisation techniques and created a
+        wireframe of my website in Miro:
+      </p>
+      <Img
+        src={image2}
+        alt="Miro wireframe"
+        alignment="mx-auto"
+        size="max-w-lg"
+        class="rounded-lg"
+      />
+      I also finished reading the reading Telling Stories with Data by Edward Segel and Jeffrey Heer
+      which I got from Francesca Mortini which helped me understand the different approaches to data
+      visualisation.
     </TimelineItem>
-    <TimelineItem title="">
-      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"></p>
+    <TimelineItem title="7 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Started generating images of nationalities and generated: a German and a Russian. Mainly
+        worked on actual website and D3.js and was able to get some doctor test images in dots:
+      </p>
+      <Img
+        src={image3}
+        alt="Miro wireframe"
+        alignment="mx-auto"
+        size="max-w-lg"
+        class="rounded-lg"
+      />
+      <p>
+        I was also able to get the dot the user hovers over to make a boarder and the caption
+        generated for that image to appear.
+      </p>
     </TimelineItem>
-    <TimelineItem title="">
-      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"></p>
+    <TimelineItem title="9 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        I took yesterday off since I was feeling a sick but back at it today. I left three of the
+        computers to generate images for a Swiss person, an Italian person, a South African person
+        overnight, and I will hopefully be finished with a Colombian person today. I also started to
+        look into getting statistics from the captions that I was able to generate and have been
+        thinking of first looking into gender statistics and to then just look at which words appear
+        the most for each prompt.
+      </p>
     </TimelineItem>
-    <TimelineItem title="">
-      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400"></p>
+    <TimelineItem title="10 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Yesterday I generated the prompts: A Luxembourgish person, A Chilean person and A Cute
+        Person. This morning I then further looked into which statistics I can generate from the
+        captions and I have decided to check for three things: age words, gender words and use a
+        model called Word2Vec to see what the most popular words are for each prompt. I decided to
+        not explicitly look for both race and weight bias since the captions inconsistency reflect
+        the race of the people in the image. Occasionally I have seen that when there is a Black
+        person it mentions that but not once were people who are White mentioned which shows a bias
+        in a whole different way but, due to the sensitivity of this topic, I do not think I will be
+        able to easily and accurately depict this in the next few days. I do think that is
+        interesting though as it shows how ‘whiteness’ is often the default in society due the that
+        fact that it was never even mentioned. Lastly, even though all the people depicted in the
+        images are slim, the captions once again do not mention this which I think further shows
+        discrimination in both Stable Diffusion and BLIP. However, I was not able to get clear
+        statistics about this either so will be leaving it out for now and, if I am able to further
+        research this, can look into other methods of analysis.
+      </p>
+      <p>
+        I exported my data into a json file which I called on today in the frontend. I need to now
+        place all the json files I get for each prompt in a MongoDB database. I am thinking of now
+        having two drop downs at the top of my page, one with the prompt and one with what the user
+        is trying to see from the data.
+      </p>
+    </TimelineItem>
+    <TimelineItem title="11 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Finished up thinking about the overall look for the display of the prompts. This is what I
+        have so far:
+      </p>
+      <Img
+        src={image4}
+        alt="website progress "
+        alignment="mx-auto"
+        size="max-w-lg"
+        class="rounded-lg"
+      />
+      <p>
+        I am going to have two dropdowns, one where the user selects the prompt and the other what
+        they want to find out about the prompt. The inital selection is ‘All images’ but they can
+        then select ‘gender’, ‘age’ and ‘most popular word’.
+      </p>
+    </TimelineItem>
+    <TimelineItem title="12 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Finished generating all the images! Also started making my MongoDB database but after
+        creating it I decided against it since the images load much faster when I call them locally
+        and there is no real reason for a database since I am just displaying my findings, the user
+        is not submitting or changing anything. Therefore, I have decided to just save my data into
+        20 different json files which I call on in the frontend.
+      </p>
+    </TimelineItem>
+    <TimelineItem title="12 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Finished generating all the images! Also started making my MongoDB database but after
+        creating it I decided against it since the images load much faster when I call them locally
+        and there is no real reason for a database since I am just displaying my findings, the user
+        is not submitting or changing anything. Therefore, I have decided to just save my data into
+        20 different json files which I call on in the frontend.
+      </p>
+    </TimelineItem>
+    <TimelineItem title="13 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Finally generated all the json files for each prompt. I probably should have done that
+        earlier but I kept on going back and forth with the the prompt ‘nurse’, seeing how the data
+        would be displayed. Spent the day doing that, working on the frontend, working on the
+        documentation and finally adding a time line to my workflow since before it was just
+        Headings and Paragraphs. I was able to add all my json files in my app so now when you
+        change through the different prompts you see different data for the filter setting ‘all
+        images’. The rest of today I will probably focus on finishing up documentation and my
+        workflow since I have now reached my minimum viable product and, if I have time tomorrow, I
+        will add the gender, age and word frequency filters.
+      </p>
+    </TimelineItem>
+    <TimelineItem title="14 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Spent the day organising my backend code for submission. I then made the very last minute
+        decision to place all my images on a website called Cloudinary which I wish I had realised I
+        needed to do earlier. I didn't realise that GitHub would not allow me to add all my images
+        since they are around 1.5MB each so I quickly needed to come up with an alternate way to do
+        this. This worked well but I had to change all the paths which has been taking a long time.
+      </p>
     </TimelineItem>
   </Timeline>
 </div>

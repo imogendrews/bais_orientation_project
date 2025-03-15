@@ -198,5 +198,85 @@
       visualization and UI/UX aspects of my website, which were not as polished as I had hoped.
       Unfortunately, I wasn’t able to implement all the features I had planned, which is a pity.</P
     >
+    <Heading class="text-black pb-2" tag="h3">What would you do differently next time?</Heading>
+    <P
+      >Next time, before planning out my project, I would try to test different stages beforehand
+      wherever possible to accurately assess and allocate my time more effectively. As mentioned
+      above, I did not account for how long it would take to generate the images, and I spent too
+      much time exploring different approaches before ultimately deciding to run the Stable
+      Diffusion model locally.</P
+    >
+    <P
+      >I also would have scaled down my project significantly, focusing either on data generation
+      and analysis or on data visualization. Trying to incorporate both aspects in one project
+      resulted in neither being as refined as I had hoped, especially the latter.</P
+    >
+    <Heading class="text-black pb-2" tag="h3"
+      >Reflection on your Minimal viable product and Best-case scenario plans</Heading
+    >
+    <P
+      >I was able to achieve my minimal viable product, which I am really happy about. I
+      successfully generated the images, obtained statistical findings from them, and displayed at
+      least one of these findings—gender representation—using D3.js. Interestingly, this was not
+      originally part of my minimal viable product plan, so I’m especially pleased with that
+      achievement.</P
+    >
+    <P
+      >However, I was not able to display all my findings, which I think is a real pity. That said,
+      I’m glad I structured my code in a way that will allow me to easily add these findings later.
+      I also wasn’t able to make the website as responsive as I would have liked. As you will see,
+      the visualization of the nodes does not adapt to the window size. I tried to figure this out
+      before the deadline, but I wasn’t able to fully understand how to implement it in time for
+      submission.</P
+    >
+    <Heading class="text-black pb-2" tag="h3">Challenge of your comfort zone</Heading>
+
+    <Heading class="text-black pb-2" tag="h3">What was new for you, and what did you learn?</Heading
+    >
+    <P
+      >Most aspects of this project were new to me, and I learned a lot throughout the process.
+      First, I had never run a machine learning model like Stable Diffusion locally, so that was a
+      really interesting learning curve. I had also never written anything in Python, let alone used
+      a library like Pandas to neatly display my findings in Jupyter. Additionally, I had never
+      worked on a data visualization project before, so learning about D3.js and seeing firsthand
+      some of the amazing things it can create was a fascinating experience.</P
+    >
+
+    <Heading class="text-black pb-2" tag="h3">What was the most difficult for you?</Heading>
+    <P
+      >I think the most difficult part for me was the last few days leading up to the deadline. My
+      project consisted of both data generation and analysis, as well as data visualization, and I
+      found it challenging to give each aspect enough attention.</P
+    >
+    <P
+      >I ended up focusing much more on the data generation part than on the data visualization,
+      which was part of my plan, but in hindsight, I wish I had started the visualization earlier.
+      This would have given me more time to experiment with creating more interesting visualizations
+      and refining the UI/UX elements of the website.</P
+    >
+
+    <Heading class="text-black pb-2" tag="h3">
+      Reflection on your original work plan with timeline</Heading
+    >
+    <P
+      >Since I had never run a model locally before, I initially planned to generate all the images
+      by February 21, but in hindsight, this was not a very accurate prediction. Had I known in
+      advance how long the image generation process would take, I would have scheduled my work more
+      in alignment with how things actually played out—where I completed various aspects of my
+      project while generating the images.</P
+    >
+    <P
+      >What I ended up doing was completing one prompt first, which I used to plan how to visualize
+      everything. While working on that, I continued generating the rest of the images whenever I
+      could. Had I known this would be the case, I would have started planning the visualization
+      earlier and trusted that the image generation process would eventually work out. Since that
+      aspect was so new to me, it was difficult to be confident that everything would go smoothly,
+      which led me to focus on it more than necessary.</P
+    >
+    <P
+      >Another challenge was that I couldn’t fully anticipate the range of outcomes I would get from
+      the prompts, making it difficult to predict the results without having all the images ready
+      for analysis earlier.</P
+    >
   </div>
 </main>
