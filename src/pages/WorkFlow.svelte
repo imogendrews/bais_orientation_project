@@ -605,6 +605,11 @@
         this. This worked well but I had to change all the paths which has been taking a long time.
       </p>
     </TimelineItem>
+    <TimelineItem title="15 March 2025">
+      <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+        Wrapped everything up!
+      </p>
+    </TimelineItem>
   </Timeline>
 </div>
 <div class="p-20"></div>

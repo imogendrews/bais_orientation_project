@@ -1,5 +1,5 @@
 <script>
-  import { P, Heading } from "flowbite-svelte";
+  import { P, Heading, A } from "flowbite-svelte";
 </script>
 
 <main>
@@ -33,9 +33,8 @@
       >I began by downloading Stable Diffusion 3.5 from Hugging Face onto one of the desktops in the
       CTech room. Using ComfyUI, I generated 100 images for each of five different prompts. My goal
       is to eventually generate 100 images for all 20 prompts; however, I underestimated how long
-      the process would take. Below is an example of my ComfyUI setup:</P
-    >
-    <img />
+      the process would take.
+    </P>
 
     <P class="text-black pb-2"
       >To speed up the process, I ran these prompts overnight over several days at the university. I
@@ -45,15 +44,18 @@
       anything below 1024x1024 produced overly simplistic results that did not fully reflect the
       capabilities of the latest version of Stable Diffusion.</P
     >
-    <Heading class="text-black pb-2" tag="h3">Juypter and Python</Heading>
+    <Heading class="text-black pb-2" tag="h4">Jupyter and Python</Heading>
     <P class="text-black pb-2">
       Next, I wrote a Python script and ran it in Jupyter, using a machine learning captioning model
       called BLIP to generate captions for each image. I created a separate GitHub repository for
-      this, which you can view here. In the script word2vec_analysis.py, you can read about each
-      step of my process. In summary, I first generated captions for each image using BLIP2. This is
-      the latest BLIP model, released in 2023, which I obtained from Hugging Face. The first version
-      of this model was released in 2022. BLIP stands for Bootstrapping Language-Image Pre-training,
-      and it was developed by Salesforce AI Research.
+      this, which you can view <A
+        href="https://github.com/imogendrews/bias_project_data"
+        class="text-blue-500 hover:underline">here</A
+      >. In the script word2vec_analysis.py, you can read about each step of my process. In summary,
+      I first generated captions for each image using BLIP2. This is the latest BLIP model, released
+      in 2023, which I obtained from Hugging Face. The first version of this model was released in
+      2022. BLIP stands for Bootstrapping Language-Image Pre-training, and it was developed by
+      Salesforce AI Research.
     </P>
     <P class="text-black pb-2"
       >I then trained the word2vec model, which creates a vector representation for each word,
@@ -68,20 +70,22 @@
       image that mentioned age, or indicated its absence.</P
     >
     <P class="text-black pb-2"
-      >ed to display all my findings in a table using Pandas, including the image, image file name,
-      gender, and age words associated with each image. Below that, I displayed the results of my
-      word2vec analysis in the Word Frequency Analysis section. Here, I also included statistics for
-      the age-related and gender-related words. You can view my results for each prompt in the files
-      ending with ‘.ipynb’.</P
+      >I then displayed all my findings in a table using Pandas, including the image, image file
+      name, gender, and age words associated with each image. Below that, I displayed the results of
+      my word2vec analysis in the Word Frequency Analysis section. Here, I also included statistics
+      for the age-related and gender-related words. You can view my results for each prompt in the
+      files ending with ‘.ipynb’. Unfortunately, I was not able to upload all the corresponding
+      images due to their size, but I added the images for the prompts 'A beautiful person' and 'An
+      American person'.</P
     >
     <Heading class="text-black pb-2" tag="h3">Data Visualisation</Heading>
     <Heading class="text-black pb-2" tag="h4">App Structure</Heading>
     <P class="text-black pb-2"
       >For the visualisation, I planned the overall structure of my app with the help of the reading
-      Narrative Visualization: Telling Stories with Data by Edward Segel and Jeffrey Heer. This
-      paper explores various data visualization techniques, examining what each one aims to achieve
-      and how to implement it. I found this particularly helpful since I am completely new to data
-      visualization and had no idea where to begin.</P
+      Narrative Visualization: Telling Stories with Data by Edward Segel and Jeffrey Heer (Segel &
+      Heer, 2010). This paper explores various data visualization techniques, examining what each
+      one aims to achieve and how to implement it. I found this particularly helpful since I am
+      completely new to data visualization and had no idea where to begin.</P
     >
     <P class="text-black pb-2"
       >The authors introduced the concept of author-driven narrative and reader-driven narrative,
@@ -102,14 +106,17 @@
     >
     <Heading class="text-black pb-2" tag="h4">App Design</Heading>
     <P class="text-black pb-2"
-      >For the design aspect of this app, I was inspired by a data visualization called Is the Love
-      Song Dying by David Mora and Michelle Jia. I really appreciated how they conveyed their point
-      through narration. Unfortunately, I wasn’t able to fully develop my introduction as richly as
-      I had hoped, but I was still inspired by their approach. I think the main takeaway from their
-      project was the idea of making captions appear from each dot. In their project, you can hover
-      over dots on a page, with each one representing a different love song. These dots change
-      dynamically based on what they are visually showing, which I thought was a simple yet powerful
-      way to present the data.</P
+      >For the design aspect of this app, I was inspired by a data visualization called <A
+        href="https://pudding.cool/2024/11/love-songs/"
+        class="text-blue-500 hover:underline"
+      >
+        Is the Love Song Dying?</A
+      > by David Mora and Michelle Jia. I really appreciated how they conveyed their point through narration.
+      Unfortunately, I wasn’t able to fully develop my introduction as richly as I had hoped, but I was
+      still inspired by their approach. I think the main takeaway from their project was the idea of
+      making captions appear from each dot. In their project, you can hover over dots on a page, with
+      each one representing a different love song. These dots change dynamically based on what they are
+      visually showing, which I thought was a simple yet powerful way to present the data.</P
     >
 
     <Heading class="text-black pb-2" tag="h3">Discussion of Your Results and Future Work</Heading>
@@ -122,7 +129,7 @@
       to display all these findings in a more engaging way and improve the visualization by
       incorporating a variety of techniques.</P
     >
-    <P
+    <P class="pb-2"
       >Overall, the results show that the latest versions of both Stable Diffusion and BLIP2 still
       have a long way to go in terms of representing society in a more inclusive manner. This is
       evident in several ways, but the most striking issue is gender representation. A clear example
@@ -130,7 +137,7 @@
       generates predominantly images of women. Men are also predominantly represented in most
       prompts, with the exception of "A beautiful person" and "A teacher."</P
     >
-    <P
+    <P class="pb-2"
       >In the future, I would also like to use a different caption generation model. BLIP2 is
       useful, but it does not provide as much depth as I would like. Additionally, it would be great
       to find a model that I can tweak to consistently provide specific types of analysis, such as
@@ -148,8 +155,8 @@
       create a clear visualization. Perhaps, with more time, I can refine my approach and explore
       these aspects further.</P
     >
-    <Heading class="text-black pb-2" tag="h2">Project documentation</Heading>
-    <Heading class="text-black pb-2" tag="h3">Categories</Heading>
+    <Heading class="text-black pb-2 pt-2" tag="h2">Project documentation</Heading>
+    <Heading class="text-black pb-2" tag="h4">Categories</Heading>
     <P
       >I believe the main categories my project covered were narrative development,
       research/experimentation, and software development. In my project plan, I mentioned
@@ -157,15 +164,15 @@
       viable product, I wasn’t able to fully explore all the creative possibilities within data
       visualization—something I would like to do in the future.</P
     >
-    <P
+    <P class="pb-2"
       >In terms of narrative development, this is reflected in how I structured the project
       according to the Martini Glass Structure. My research and experimentation are evident in the
       various papers I read to acquire the necessary skills for this project. Lastly, my software
       development efforts can be seen in the app I created and the process I used to generate and
       analyze the images.</P
     >
-    <Heading class="text-black pb-2" tag="h3">Technical Choices</Heading>
-    <P
+    <Heading class="text-black pb-2" tag="h4">Technical Choices</Heading>
+    <P class="pb-2"
       >For the machine learning models I used, I decided to explore Stable Diffusion primarily
       because I had learned about diffusion models in my Machine Learning 2 workshop and wanted to
       explore them further. I then chose BLIP for captioning after reading that it was one of the
@@ -175,53 +182,55 @@
       captions, as I had previously worked with it in a project at my job and found it to be
       effective.</P
     >
-    <P
+    <P class="pb-2"
       >For data analysis, I chose Pandas after hearing that it was one of the best frameworks
       available. Since I had not worked with Python before, I wanted to use an established library
       with extensive documentation. Initially, I planned to store my data in a database, but I
       decided against it since the JSON files were not too large, and I wanted to avoid potential
-      loading time issues. Instead, I uploaded my images to Cloudinary, as they were the largest
-      data files and could not be stored locally in a free GitHub project.</P
+      loading time issues. Instead, I uploaded half my images to Cloudinary, as they were the
+      largest data files and they could not all be stored locally in a free GitHub project.</P
     >
-    <P
+    <P class="pb-2"
       >For data visualization, I chose D3.js because I am new to the field and wanted to use a
       widely adopted tool. Lastly, I built my application in JavaScript using the Svelte framework,
       as I had used it in my previous job as a frontend developer and wanted to work with a
       framework I was already familiar with.</P
     >
-    <Heading class="text-black pb-2" tag="h3">What worked well, what didn't?</Heading>
-    <P
+    <Heading class="text-black pb-2" tag="h4">What worked well, what didn't?</Heading>
+    <P class="pb-2"
       >I think the caption generation for each image, the analysis I was able to derive from it, and
       its visualization using D3.js worked really well. However, I did not anticipate how long it
       would take to generate the images, and a significant amount of my time was spent on this early
       in the process. As a result, I fell behind on my timeline. This primarily impacted the
       visualization and UI/UX aspects of my website, which were not as polished as I had hoped.
-      Unfortunately, I wasn’t able to implement all the features I had planned, which is a pity.</P
-    >
-    <Heading class="text-black pb-2" tag="h3">What would you do differently next time?</Heading>
-    <P
+      Unfortunately, I wasn’t able to implement all the features I had planned, which is a pity and
+      I would have also liked to publish my website on Netlify so that it was easier for others to
+      view it later for the presentation but unfortunately I ran out of time.
+    </P>
+    <Heading class="text-black pb-2" tag="h4">What would you do differently next time?</Heading>
+    <P class="pb-2"
       >Next time, before planning out my project, I would try to test different stages beforehand
       wherever possible to accurately assess and allocate my time more effectively. As mentioned
       above, I did not account for how long it would take to generate the images, and I spent too
       much time exploring different approaches before ultimately deciding to run the Stable
       Diffusion model locally.</P
     >
-    <P
+    <P class="pb-2"
       >I also would have scaled down my project significantly, focusing either on data generation
       and analysis or on data visualization. Trying to incorporate both aspects in one project
       resulted in neither being as refined as I had hoped, especially the latter.</P
     >
-    <Heading class="text-black pb-2" tag="h3"
+    <Heading class="text-black pb-2" tag="h4"
       >Reflection on your Minimal viable product and Best-case scenario plans</Heading
     >
-    <P
+    <P class="pb-2"
       >I was able to achieve my minimal viable product, which I am really happy about. I
       successfully generated the images, obtained statistical findings from them, and displayed at
       least one of these findings—gender representation—using D3.js. Interestingly, this was not
       originally part of my minimal viable product plan, so I’m especially pleased with that
       achievement.</P
     >
-    <P
+    <P class="pb-2"
       >However, I was not able to display all my findings, which I think is a real pity. That said,
       I’m glad I structured my code in a way that will allow me to easily add these findings later.
       I also wasn’t able to make the website as responsive as I would have liked. As you will see,
@@ -231,9 +240,9 @@
     >
     <Heading class="text-black pb-2" tag="h3">Challenge of your comfort zone</Heading>
 
-    <Heading class="text-black pb-2" tag="h3">What was new for you, and what did you learn?</Heading
+    <Heading class="text-black pb-2" tag="h4">What was new for you, and what did you learn?</Heading
     >
-    <P
+    <P class="pb-2"
       >Most aspects of this project were new to me, and I learned a lot throughout the process.
       First, I had never run a machine learning model like Stable Diffusion locally, so that was a
       really interesting learning curve. I had also never written anything in Python, let alone used
@@ -242,30 +251,31 @@
       some of the amazing things it can create was a fascinating experience.</P
     >
 
-    <Heading class="text-black pb-2" tag="h3">What was the most difficult for you?</Heading>
-    <P
+    <Heading class="text-black pb-2" tag="h4">What was the most difficult for you?</Heading>
+    <P class="pb-2"
       >I think the most difficult part for me was the last few days leading up to the deadline. My
       project consisted of both data generation and analysis, as well as data visualization, and I
       found it challenging to give each aspect enough attention.</P
     >
-    <P
+    <P class="pb-2"
       >I ended up focusing much more on the data generation part than on the data visualization,
       which was part of my plan, but in hindsight, I wish I had started the visualization earlier.
       This would have given me more time to experiment with creating more interesting visualizations
-      and refining the UI/UX elements of the website.</P
+      and refining the UI/UX elements of the website. This also led to me not having time to publish
+      my website on a platform such as Netlify which would have been great.</P
     >
 
-    <Heading class="text-black pb-2" tag="h3">
+    <Heading class="text-black pb-2" tag="h4">
       Reflection on your original work plan with timeline</Heading
     >
-    <P
+    <P class="pb-2"
       >Since I had never run a model locally before, I initially planned to generate all the images
       by February 21, but in hindsight, this was not a very accurate prediction. Had I known in
       advance how long the image generation process would take, I would have scheduled my work more
       in alignment with how things actually played out—where I completed various aspects of my
       project while generating the images.</P
     >
-    <P
+    <P class="pb-2"
       >What I ended up doing was completing one prompt first, which I used to plan how to visualize
       everything. While working on that, I continued generating the rest of the images whenever I
       could. Had I known this would be the case, I would have started planning the visualization
@@ -273,10 +283,28 @@
       aspect was so new to me, it was difficult to be confident that everything would go smoothly,
       which led me to focus on it more than necessary.</P
     >
-    <P
+    <P class="pb-2"
       >Another challenge was that I couldn’t fully anticipate the range of outcomes I would get from
       the prompts, making it difficult to predict the results without having all the images ready
       for analysis earlier.</P
+    >
+
+    <Heading class="text-black pb-2" tag="h4">References</Heading>
+    <P class="pb-2"
+      >1. Greenwald, A. G., McGhee, D. E., & Schwartz, J. L. K. (1998). Measuring individual
+      differences in implicit cognition: The implicit association test. Journal of Personality and
+      Social Psychology, 74(6), 1464–1480. https://doi.org/10.1037/0022-3514.74.6.1464</P
+    >
+    <P class="pb-2"
+      >2. Segel, E., & Heer, J. (2010). Narrative visualization: Telling stories with data. IEEE
+      Transactions on Visualization and Computer Graphics, 16(6), 1139–1148.
+      https://doi.org/10.1109/TVCG.2010.179</P
+    >
+    <P
+      >3. Sun, L., Wei, M., Sun, Y., Suh, Y. J., Shen, L., & Yang, S. (2024). Smiling women pitching
+      down: Auditing representational and presentational gender biases in image-generative AI.
+      Journal of Computer-Mediated Communication, 29(1), Article zmad045.
+      https://doi.org/10.1093/jcmc/zmad045</P
     >
   </div>
 </main>
