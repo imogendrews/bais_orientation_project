@@ -49,7 +49,7 @@
         />
         <div class="pt-5 pr-2">
           <P class="text-base leading-relaxed text-black font-bold dark:text-gray-400">
-            When reading that sentence, what does this man look like?
+            After reading that sentence, what does this man look like?
           </P>
         </div>
       </div>
@@ -70,13 +70,13 @@
     size="md"
   >
     <Heading tag="h4"></Heading>
-    <div class=" bg-opacity-70 p-4 rounded-lg text-center">
-      <P class="text-base leading-relaxed text-blackdark:text-gray-400 font-bold ">
+    <div class=" bg-opacity-70 p-4 rounded-lg text-center pb-4">
+      <P class="text-base leading-relaxed text-blackdark:text-gray-400 font-bold pb-4">
         I am sure you have heard about this thought experiment that aims to see what implicit race
         bias a person has. This project aims to find out what implicit bias image generation models
         have.
       </P>
-      <img src={biasImg} width="500px" class="block mx-auto" />
+      <img src={biasImg} width="500px" class="block mx-auto pb-4" />
       <P class="text-base leading-relaxed text-blackdark:text-gray-400 font-bold ">
         It was inspired by the Implicit Association Test (IAT) which was developed by psychologists
         Anthony Greenwald, Mahzarin Banaji, and Brian Nosek in 1998 and is designed to see what
@@ -130,7 +130,7 @@
       bar at the top and then see the gender statistics found for each prompt by selecting 'gender'
       under 'Select a filter' with blue being 'Male', pink being 'Female' and green being 'Neutral'.
     </P>
-    <img src={explanation} width="500px" class="block mx-auto" />
+    <img src={explanation} width="700px" class="block mx-auto" />
     <P class="text-base leading-relaxed  font-bold pt-5">
       You can then hover over each image and see which caption was generated for each image and,
       lastly, click on the dot to see the image a bit larger. Go ahead and see for yourself what I
